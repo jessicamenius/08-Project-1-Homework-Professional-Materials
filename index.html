@@ -20,23 +20,32 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Porfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact me</a>
+            <a
+              class="nav-link"
+              href="contact.html"
+              tabindex="-1"
+              aria-disabled="false"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
@@ -46,31 +55,26 @@
     <main>
       <section>
         <div class="container">
-          <div class="row">
-            <h5>About me</h5>
-            <br />
-            <p>TBD</p>
-          </div>
-          <br />
-          <div class="container">
-            <div class="row">
-              <h5>My interest in coding</h5>
-              <p>
-                "I choose a lazy person to do a hard job. Because a lazy person
-                will find an easy way to do it." - Bill Gates
-              </p>
-              <br />
-              <p>TBD</p>
-            </div>
-          </div>
-          <br />
-          <div class="container">
-            <div class="row">
-              <h5>Goals</h5>
-              <br />
-              <p>TBD</p>
-            </div>
-          </div>
+          <h5>About me</h5>
+          <p>TBD</p>
+        </div>
+
+        <br />
+
+        <div class="container">
+          <h5>My interest in coding</h5>
+          <p>
+            "I choose a lazy person to do a hard job. Because a lazy person will
+            find an easy way to do it." - Bill Gates
+          </p>
+          <p>TBD</p>
+        </div>
+
+        <br />
+
+        <div class="container">
+          <h5>Goals</h5>
+          <p>TBD</p>
         </div>
       </section>
     </main>

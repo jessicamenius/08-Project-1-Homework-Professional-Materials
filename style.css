@@ -8,6 +8,11 @@ body {
   color: #b4dfe5;
 }
 
+.navbar-toggler {
+  background-color: #303c6c;
+  color: #b4dfe5;
+}
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",

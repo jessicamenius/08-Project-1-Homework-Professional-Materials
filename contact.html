@@ -21,27 +21,107 @@
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Porfolio</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact me</a>
+            <a
+              class="nav-link"
+              href="contact.html"
+              tabindex="-1"
+              aria-disabled="false"
+              >Contact</a
+            >
           </li>
         </ul>
       </div>
     </nav>
+
+    <!-- cards -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">GitHub</h5>
+              <p class="card-text">
+                Click to view my GitHub repos for more projects.
+              </p>
+              <a
+                href="https://github.com/jessicamenius"
+                target="_blank"
+                class="btn btn-primary"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">LinkedIn</h5>
+              <p class="card-text">
+                Work history, education, and more. Want to connect, click the
+                button below.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/jessicamenius/"
+                target="_blank"
+                class="btn btn-primary"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Email me</h5>
+              <p class="card-text">
+                To get in contact with me via email, click the button below!
+              </p>
+              <a href="mailto:jessicamenius@gmail.com" class="btn btn-primary"
+                >Email me</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Phone info</h5>
+              <p class="card-text">
+                Give me a call or text.
+              </p>
+              <a href="tel:123-456-7890" class="btn btn-primary"
+                >314-517-8505</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <main>
       <div class="container">
@@ -67,11 +147,6 @@
             <p>
               <a href="https://twitter.com/jmonkey1283" target="_blank"
                 >Twitter</a
-              >
-            </p>
-            <p>
-              <a href="https://github.com/jessicamenius" target="_blank"
-                >GitHub</a
               >
             </p>
           </section>

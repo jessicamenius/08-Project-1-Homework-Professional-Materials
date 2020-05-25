@@ -9,47 +9,33 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="nav.css" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Jessica Menius</a>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Jessica Menius</a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="portfolio.html"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
             >
-              Portfolio
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="gamesapp.html"
-                >Project 1: Game App</a
-              >
-              <a class="dropdown-item" href="#">Proud of this</a>
-              <a class="dropdown-item" href="#">External page I just made</a>
-            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Porfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact me</a>
@@ -57,6 +43,8 @@
         </ul>
       </div>
     </nav>
+
+    <!-- content -->
     <main>
       <div class="container">
         <div class="row">
@@ -103,6 +91,5 @@
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="app.js"></script>
-    <script src="nav.js"></script>
   </body>
 </html>

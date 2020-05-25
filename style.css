@@ -1,5 +1,11 @@
 body {
   font-family: Noto + Sans !important;
+  background-color: #d2fdff;
+}
+
+.navbar {
+  background-color: #303c6c;
+  color: #b4dfe5;
 }
 
 header {
@@ -75,7 +81,22 @@ body {
   transition: margin-left 0.5s ease;
 }
 
-/* 
-.theme {
-    colors tbd
-} */
+.theme1 {
+  color: #fbe86a;
+}
+
+.theme2 {
+  color: #f4976c;
+}
+
+.theme3 {
+  color: #303c6c;
+}
+
+.theme4 {
+  color: #b4dfe5;
+}
+
+.theme5 {
+  color: #d2fdff;
+}

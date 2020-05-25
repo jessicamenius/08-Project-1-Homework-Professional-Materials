@@ -1,11 +1,11 @@
 body {
   font-family: Noto + Sans !important;
-  background-color: #d2fdff;
+  background-color: #d3e3fc;
 }
 
 .navbar {
-  background-color: #303c6c;
-  color: #b4dfe5;
+  background-color: #00887a;
+  color: #ffffff;
 }
 
 .navbar-toggler {
@@ -87,23 +87,23 @@ body {
 }
 
 .theme1 {
-  color: #fbe86a;
+  color: #00887a;
 }
 
 .theme2 {
-  color: #f4976c;
+  color: #ffccbc;
 }
 
 .theme3 {
-  color: #303c6c;
+  color: #ffffff;
 }
 
 .theme4 {
-  color: #b4dfe5;
+  color: #d3e3fc;
 }
 
 .theme5 {
-  color: #d2fdff;
+  color: #77a6f7;
 }
 
 #center {

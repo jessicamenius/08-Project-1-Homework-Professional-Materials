@@ -94,15 +94,18 @@ Created and subsequently updated with new products deployment hub for customers
 
 Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
 
-LinkeIn updates needed:
-Current work roles (see above)
+- LinkeIn updates needed:
+  - Current work roles (see above)
+  - Make sure all info in current
 
-### Project Ideas
+### Future Project Ideas
 
 Use the final Visual Design landing page project and create a working page
 Create a travel blog of trips I've taken with Bryan
 Update Calabash's site, as it currently is garbage
 
----
+### Remaining work to do
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+- Fix color scheme
+- Update about me page
+- Add pictures to profile page

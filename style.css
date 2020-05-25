@@ -100,3 +100,13 @@ body {
 .theme5 {
   color: #d2fdff;
 }
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #b4dfe5;
+}

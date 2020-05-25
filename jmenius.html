@@ -15,60 +15,84 @@
     <!-- navbar -->
 
     <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="jmenius.html">Jessica Menius</a>
+      <a class="navbar-brand" href="jmenius.html">Jessica Menius </a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="contact.html"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contact</a
             >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Porfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact me</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <!-- content -->
-    <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg">
-            <h5>About me</h5>
-            <p>TBD</p>
+    <!-- Cards -->
+
+    <div id="center" class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">About me</h5>
+              <p class="card-text">
+                Learn more about me!
+              </p>
+              <a href="index.html" class="card-link">About me</a>
+            </div>
           </div>
-          <div class="col-lg">
-            <h5>My interest in coding</h5>
-            <p>
-              "I choose a lazy person to do a hard job. Because a lazy person
-              will find an easy way to do it." - Bill Gates
-            </p>
-            <p>TBD</p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">My portfolio</h5>
+              <p class="card-text">
+                Examples of my projects
+              </p>
+              <button type="submit">Portfolio</button>
+              <a href="portfolio.html" class="card-link">Portfolio</a>
+            </div>
           </div>
-          <div class="col-lg">
-            <h5>Goals</h5>
-            <p>TBD</p>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Contact me</h5>
+              <p class="card-text">
+                Want to get in touch?
+              </p>
+              <a href="contact.html" class="card-link">Contact me</a>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
-    <!-- script -->
+    <!-- script  -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

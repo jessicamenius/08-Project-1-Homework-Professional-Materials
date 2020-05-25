@@ -2,22 +2,17 @@
 
 ## Requirements
 
-- Updated portfolio featuring project 1 and two exemplary homework assignments. - Group project added to project page
+- Updated portfolio featuring project 1 and two exemplary homework assignments.
+  **Group project added to portfolio page**
 
-- Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments. - how do we pin without having a professional account?
+- Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
+  **How do we pin without having a professional account?**
 
-- Updated resume - currently redesigning/updating resume with current work information
+- Updated resume
+  **Currently redesigning/updating resume with current work information**
 
-- Updated LinkedIn profile - updating linkedIn profile
-
-## Grading
-
-| Requirement      | Weight |
-| ---------------- | ------ |
-| Portoflio        | 40%    |
-| GitHub Profile   | 40%    |
-| Resume           | 10%    |
-| LinkedIn Profile | 10%    |
+- Updated LinkedIn profile
+  **Currently updating LinkedIn profile**
 
 ## Instructions
 
